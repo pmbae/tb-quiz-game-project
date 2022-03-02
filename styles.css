@@ -1,0 +1,50 @@
+
+.welcome {
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    padding: 50px;
+    margin: 0 auto;
+    width: 50%;
+    height: 400px;
+
+   
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    padding: 20px;
+
+}
+#btnBegin {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+    height: 30px;
+    width: 100px;
+    margin: 10px 35px 0px 35px ;
+}
+
+.hide {
+    display: none;
+
+}
+
+.question {
+    color: black;
+}
+
+.answer {
+    color: blue;
+}
+
+div.answer:hover, div.answer:active {
+    color: white;
+    background-color: blue;
+}
